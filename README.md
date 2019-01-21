@@ -13,11 +13,11 @@ The goal of the thesis was to perform image segmentation and calculate and recor
 **Accuracy vs Error:** After training the model, training accuracy of 97.56 % and validation accuracy of 95.24 % and training loss of 0.098 and validation loss of 0.152 was achieved. The training vs error graph can be seen below.  
 <p align="center"><img src="https://github.com/mitalishah25/image_segmentation_unet/blob/master/unet_graph.jpg" width="400" height="200" /></p>
 
-**Result:** Below is the result of model on test image. The left image is the test image, the center image is the ground truth mask used to 
+**Results:** Below is the result of model on a test image. The left image is the test image, the center image is the ground truth mask used to 
 check the model accuracy on test images and the right image is the predicted mask.
 <p align="center"><img src="https://github.com/mitalishah25/image_segmentation_unet/blob/master/unpreprocessed_test_results.png" width="400" height="200" /></p>
 
-**Image preprocessing technique used to obtain accurate test results:** When the model was tested on test images few images did not give desired results so these images were preprocessed. Two image preprocessing techniques - histogram equalization and adaptive histogram equalization were used. On comparing the segmented result on the preprocessed images histogram equalization was selected as the image preprocessing technique.  
+**Image preprocessing technique used to obtain accurate test results:** When the model was tested on test images, few images did not give desired results so the images were preprocessed. Two image preprocessing techniques - histogram equalization and adaptive histogram equalization were used. On comparing the segmented result on the preprocessed images histogram equalization was selected as the image preprocessing technique.  
 *Results before applying histogram equalization.* The left image is the test image, the center image is the ground truth mask and the right image is the predicted mask.
 <p align="center"><img src="https://github.com/mitalishah25/image_segmentation_unet/blob/master/unpreprocessed_test_results1.png" width="400" height="166" /></p>
 
