@@ -4,7 +4,7 @@
 The goal of the thesis was to perform image segmentation and calculate and record the percentage of Silvetia Compressa present in the image for analysts to perform ecological monitoring.
 
 **Dataset used:** Marine Dataset collected by Biology Department, CSUCI. The dataset comprised of 100 training and validation images that were split randomly (85% training images and 15% validation images) during the model training and 50 test images.
-<p align="center"><img src="https://github.com/jtisaacs/BioImages/blob/master/sil0.png" width="300" height="300" title="Sample image of Silvetia Compressa"/></p>
+<p align="center"><img src="https://github.com/jtisaacs/BioImages/blob/master/sil0.png" width="200" height="200" title="Sample image of Silvetia Compressa"/></p>
 
 **Application used for annotating images:** [Image Segmenter App in MATLAB](https://www.mathworks.com/help/images/ref/imagesegmenter-app.html). This application was used to create segmented images for training and validation. The 50 test images were also segmented and were used as ground truth images to test the model. 
 
